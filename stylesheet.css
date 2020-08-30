@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+html body{
+    background: url(background.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.navbar-nav > .active > a {
+    color: whitesmoke;   
+  }
+  .nav-item > a:hover {
+    color: lightgrey;
+  }
+.nav.item{
+    float:right;
+}
+
+
+  .about-me{
+    margin-top: 10%;
+    padding: 80px 0px;
+    border-radius: 30px;
+    margin-bottom: 15%;
+  }
+
+
+.portfolio-page{
+  padding: 1% 1%;
+  position: relative;
+  margin-bottom: 15%;
+}
+
+
+  .contact-section{
+    padding: 12% 5%;
+  }
+  .contact-section h1{
+    text-align: center;
+    color: #34495e;
+    font-weight: bolder;
+    stroke: whitesmoke;
+    stroke-width: 1px;
+  }
+  .border{
+    width: 150px;
+    height: 10px;
+    background: #34495e;
+    margin: 25px auto;
+    border-radius: 25px;
+  }
+  
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+    border-radius: 25px;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: auto;
+    width: 100%
+  }
+  .contact-form-btn:hover{
+    background: #2980b9;
+  }
+ 
